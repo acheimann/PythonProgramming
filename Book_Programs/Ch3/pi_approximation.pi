@@ -1,0 +1,21 @@
+#pi_approx.py
+#A program to approximate the value of pi
+
+import math
+
+def main():
+    print "This program approximates the value of pi."
+    print
+    
+    n = input("Please enter how many terms you wish to sum: ")
+    for i in range(n):
+        pi_estimate = 4/i -
+		difference = math.pi - pi_estimate
+		error_margin = difference/math.pi
+
+    print "Using", n, "terms, the value of pi is calculated to be", pi_estimate
+	print "The difference between this value and pi is", margin_error
+	print "That's a difference of", error_margin,"percent."
+
+main()
+      
